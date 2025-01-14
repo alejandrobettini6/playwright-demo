@@ -75,6 +75,26 @@ npx playwright show-report
 
 Remember that the report should be generated automatically after the tests are finished.
 
+To open the report for performance tests with lighthouse, you can use the following command:
+
+If you are using bash/zsh command line use
+
+```
+open ./lighthouse-reports/lighthouse-report.html
+```
+
+instead if you are using powershell command line use
+
+```
+start ./lighthouse-reports/lighthouse-report.html
+```
+
+or
+
+```
+ii ./lighthouse-reports/lighthouse-report.html
+```
+
 ## Playwright Configuration
 
 Remember that you can modify the playwright.config.js file to change the default settings.
